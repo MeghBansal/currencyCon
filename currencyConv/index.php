@@ -8,6 +8,7 @@ $response = json_decode($json_data, true);
 <html>
 <head>
 	<title>Currency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></link>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -74,7 +75,7 @@ $response = json_decode($json_data, true);
     <div class="container">
         <h2 class="text-center mt-5 mb-5">Currency Convertor</h2>
         <hr/>
-        <div class="card mx-auto" style="width: 40vw; margin-top: 5%;">
+        <div class="card mx-auto col-xs-12 col-sm-6 col-sm-offset-3" style=" margin-top: 5%;">
             <div class="card-body ">
                 <h4 class="card-title text-center pb-2">Choose Base Currency</h4>
                 <form method="post">
